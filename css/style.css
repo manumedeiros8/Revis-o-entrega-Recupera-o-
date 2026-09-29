@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f7;
+    color: #4a1740;
+}
+
+#cabecalho {
+    background-color: #ea217f;
+    color: #ffffff;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#cabecalho h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#cabecalho p {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu span {
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px;
+}
+
+.apresentacao {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.apresentacao article {
+    flex: 1;
+}
+
+.apresentacao h2 {
+    font-size: 30px;
+    color: #ea217f;
+    margin: 15px;
+}
+
+.apresentacao p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.apresentacao img {
+    width: 400px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+#personagens {
+    margin-top: 50px;
+}
+
+#personagens > h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #ea217f;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 250px;
+    border-radius: 18px;
+    padding: 15px;
+    flex: 1 1 220px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #ea217f;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: rgb(231, 56, 121);
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+}
